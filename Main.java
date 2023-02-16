@@ -6,7 +6,7 @@ public class Main {
         Zombie slowZombie = new Zombie();
         Zombie fastZombie = new Zombie();
         Dog spotDog = new Dog();
-        Leviathan leviathan = new Leviathan();
+        Leviathan leviathan = new Leviathan(Powers.Waterballs);
     }
 
 }

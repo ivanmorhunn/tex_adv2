@@ -1,5 +1,3 @@
-import java.lang.reflect.Method;
-
 public class Action {
     private Method method;
     private char hotkey;
