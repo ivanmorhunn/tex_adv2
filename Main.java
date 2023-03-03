@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String[] args){
+        World world = new World();
+        world.load_tiles();
         Ogre greenOgre = new Ogre();
         Ogre redOgre = new Ogre();
         Zombie slowZombie = new Zombie();
