@@ -40,4 +40,19 @@ public class MapTile {
     public String intro_text() { throw new UnsupportedOperationException();}
 
     public void modify_player(Player player) {throw new UnsupportedOperationException();}
+
+    public ArrayList<Action> adjacent_moves(){
+      //Returns all move actions for adjacent tiles.
+      ArrayList<Action> moves = new ArrayList<Action>();
+      if (World.tile_exists(x , y+1) != null)
+          moves.add(new MoveEast());
+      if (World.tile_exists(x , y-1) != null)
+          moves.add(new MoveWest());
+      if (World.tile_exists(x-1, y) != null)
+          moves.add(new MoveNorth());
+      if (World.tile_exists(x+1 , y) != null)
+          moves.add(new MoveSouth());
+      //String moves[] = new String[1];
+      return moves;
+    }
 }
