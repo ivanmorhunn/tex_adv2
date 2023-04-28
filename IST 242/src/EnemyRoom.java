@@ -13,6 +13,7 @@ public class EnemyRoom extends MapTile{
             the_player.hp = the_player.hp - enemy.damage;
 
             System.out.printf("Enemy does %d damage. You have %d HP remaining.", enemy.damage, the_player.hp);
+            enemy.hp=0;
         }
     }
 }
