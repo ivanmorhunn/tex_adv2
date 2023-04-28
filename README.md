@@ -1,3 +1,3 @@
-# Java game 
-<i>Lost in the Depths: A Text Adventure 2023</i> 
-Coded by Ivan Morhun
+# Java game Lost in the Depths: A Text Adventure 2023
+
+<em>Coded by Ivan Morhun</em>
