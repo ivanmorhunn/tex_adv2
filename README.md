@@ -1,1 +1,1 @@
-# tex_adv2
+# Text Adventure 2023 by Ivan Morhun
