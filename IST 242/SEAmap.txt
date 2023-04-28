@@ -1,0 +1,5 @@
+			LeaveSeaRoom
+			LeviathanRoom
+			FindTridentRoom
+	SirenRoom	TreasureRoom	StartingRoom	SirenRoom	EmptySeaPath
+	EmptySeaPath	TreasureRoom	FindHarpoonRoom	TreasureRoom	KrakenRoom
