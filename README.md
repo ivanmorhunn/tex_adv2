@@ -1,1 +1,1 @@
-# Text Adventure 2023 by Ivan Morhun
+# Java game: Text Adventure 2023 by Ivan Morhun
